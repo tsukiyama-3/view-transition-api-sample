@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   postcss: {
     plugins: { tailwindcss: {} },
   },
+  experimental: {
+    viewTransition: true,
+  },
   css: ['~/assets/css/tailwind.css'],
 })
