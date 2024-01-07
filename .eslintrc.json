@@ -7,11 +7,7 @@
   "parserOptions": {
     "parser": "@typescript-eslint/parser"
   },
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:vue/vue3-recommended"
-  ],
+  "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended", "plugin:vue/vue3-recommended"],
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "no-console": "off",
@@ -19,9 +15,7 @@
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/no-unused-vars": 0,
     "vue/padding-line-between-blocks": ["error", "always"],
-    "vue/component-tags-order": [
-      "error",
-      { "order": ["script", "template", "style"] }
-    ]
+    "vue/component-tags-order": ["error", { "order": ["script", "template", "style"] }],
+    "vue/multi-word-component-names": "off"
   }
 }
